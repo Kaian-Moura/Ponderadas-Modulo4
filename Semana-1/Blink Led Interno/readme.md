@@ -2,7 +2,35 @@
 
 ### Parte 1:
 
-Vídeo do Arduíno junto com o led funcionando:
+Vídeo do Arduíno com led interno piscando:
+
+<a href="https://youtube.com/shorts/aGF2YBkhlL0?si=P97d8nXFwEj1iOk1
+">Link do vídeo</a>
+
+Screenshot do código:
+
+<img src="https://res.cloudinary.com/dhlzexsce/image/upload/v1760639281/Captura_de_tela_de_2025-10-16_15-27-32_wcpvpo.png" alt="Imagem do Screenshot">
+
+Código usado:
+
+```
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT); // define o LED interno como saída
+}
+
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH); // acende o LED
+  delay(1000);                     // espera 1 segundo
+  digitalWrite(LED_BUILTIN, LOW);  // apaga o LED
+  delay(1000);                     // espera 1 segundo
+}
+
+}
+```
+
+EXTRA:
+
+Vídeo do Arduíno junto com o led OFF BOARD funcionando:
 
 <a href="https://youtube.com/shorts/Z8--EmK5UCM">Link do vídeo</a>
 
@@ -43,6 +71,7 @@ void setup() {
   pinMode(1, OUTPUT); // LED vermelho
   pinMode(2, OUTPUT); // LED verde
   pinMode(3, OUTPUT); // LED laranja
+  pinMode(4, OUTPUT); // LED AMARELA
 }
 
 void loop() {
@@ -58,7 +87,12 @@ void loop() {
   digitalWrite(3, HIGH); // acende laranja
   delay(500);
   digitalWrite(3, LOW);
+  
+  digitalWrite(4, HIGH); // acende amarelo
+  delay(500);
+  digitalWrite(4, LOW);
 }
+
 
 ```
 
