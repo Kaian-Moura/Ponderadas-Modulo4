@@ -107,4 +107,29 @@ Liguei um resistor em cada led
 
 Testei e funcionou!
 
+## Avaliação em pares
+
+### Avaliador 1
+
+| Avaliador | Montagem física (4) | Pontos | Temporização (3) | Pontos | Código & estrutura (3) | Pontos | Observações gerais                                                         | Total (10) |
+|-----------|----------------------|--------|-------------------|--------|------------------------|--------|----------------------------------------------------------------------------|------------|
+| Amanda Cristina Martinez da Rosa    | Contempla parcialmente | 3.5    | Contempla          | 3.0    | Contempla               | 3.0    | Semáforo funcionou bem e conseguiu implementar um elemento a mais na montagem | 9.5        |
+
+### Avaliador 2
+
+| Avaliador | Montagem física (4) | Pontos | Temporização (3) | Pontos | Código & estrutura (3) | Pontos | Observações gerais                                                         | Total (10) |
+|-----------|----------------------|--------|-------------------|--------|------------------------|--------|----------------------------------------------------------------------------|------------|
+| Luiz     | Contempla parcialmente | 3.5    | Contempla          | 3.0    | Contempla               | 3.0    | Tudo ok, só os fios que estão um pouco bagunçado| 9.2        |
+
+## Conclusão
+
+Nesta atividade desenvolvi um semáforo offline desde a montagem física até a
+programação da lógica de temporização. Montamos os LEDs em protoboard, protejemos
+os componentes com resistores e carregamos o código em uma placa (ex.: ESP32).
+
+O código em `codigo.ino` implementa a sequência de fases com os tempos exigidos
+(6s vermelho, 4s verde, 2s amarelo) e usa um exemplo simples com ponteiros para
+demonstrar manipulação de estado. Testes práticos confirmaram o funcionamento do
+semáforo; caso deseje melhorias, as extensões sugeridas (botão de pedestres,
+buzzer, temporização baseada em `millis()`) são bons próximos passos.
 
