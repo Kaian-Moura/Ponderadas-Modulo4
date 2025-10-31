@@ -83,15 +83,13 @@ Colquei os leds primeiro na protoboard para testar e depois passar pra modelagem
 
 <img src="assets/primeiro.jpeg" alt="Primeira etapa">
 
-Colquei os leds primeiro na protoboard para testar e depois passar pra modelagem do semáforo.
-
 ### Segunda etapa
 
-Pimeiro eu coloquei o Esp 32, os Led e Resistores 
+Após isso, adicionei os jumpers para testar o código.
 
 <img src="assets/segundo.jpeg" alt="Primeira etapa">
 
-Liguei os jumpers e testei!!
+Também adicionei um resistor em cada led.
 
 ### Terceira etapa
 
@@ -99,9 +97,11 @@ Liguei cada led em seus respectivos GPIO
 
 <img src="assets/terceiro.jpeg" alt="Primeira etapa">
 
+E adicionei na modelagem 3d
+
 ### Quarta etapa
 
-Liguei um resistor em cada led
+Testei o semaforo
 
 <img src="assets/quarto.jpeg" alt="Primeira etapa">
 
